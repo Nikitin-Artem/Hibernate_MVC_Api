@@ -7,18 +7,15 @@
     <groupId>org.example.app</groupId>
     <artifactId>Hibernate_MVC_App</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
 
     <name>Hibernate_MVC_App Maven Webapp</name>
     <url>http://localhost/8080</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>1.7</maven.compiler.source>
-        <maven.compiler.target>1.7</maven.compiler.target>
-<!--        <hibernate.version>5.3.5.Final</hibernate.version>-->
-<!--        <c3p0.version>0.9.5.2</c3p0.version>-->
-<!--        <hsqldb.version>1.8.0.10</hsqldb.version>-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
