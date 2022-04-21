@@ -57,7 +57,7 @@ public class CRMLoggingAspect {
         for (Object temp : args) {
             logger.info(">> argument: " + temp);
         }
-    }
+    }//
 
     // add @AfterReturning advice
     @AfterReturning(
